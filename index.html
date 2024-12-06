@@ -1,26 +1,85 @@
+<!-- Unit 5 Project
+Requirements
+[yes] <div> and <span>
+[yes] height: and width:
+[yes] margin: and padding: 
+[yes] Three Images
+
+Select ONE Additional Feature to Add  
+[ no ] Feature 1 - Flexbox
+[ no ] Feature 2 - Flip Card
+[ no ] Feature 3 - Navbar
+[ no ] Feature 4 - Shaking Animation
+[yes] Feature 5 - Gradient Background
+[ no ] Feature 6 - Spotify Playlist
+-->
+
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit 5 project</title>
+    <meta charset="utf-8" />
+    <style>
+      #info{
+        background-image: linear-gradient(lightblue, lightpink);
+        width: 50%;
+        Height: 800px;
+        overflow-y: auto;
+        margin: 10px;
+        padding: 10px;}
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Title</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-  <style>
-  
-  </style>
-</head>
 
-<body>
-  <h1>Unit 6 JS Drawing Basics &amp Coloring </h1>
-  <h2>6.1 JS Making Drawings with Code</h2>
+    
+    </style>
+  </head>
+  <body>
+    <div id="info">
+      <h1>Owls 🦉🦉</h1>
 
-  <canvas id="myCanvas" data-processing-sources="myP5Code.pde">
-  </canvas>
+      <p>
+        <span class="first-sentence"
+          >Owls are birds from the order Strigiformes, which includes over 200
+          species of mostly solitary and nocturnal birds.</span
+        >The prey typified by an upright stance, a large, broad head, binocular
+        vision, binaural hearing, sharp talons, and feathers adapted for silent
+        flight.
+      </p>
 
-</body>
+      <div class="flip-card">
+        <img
+          src="https://chazoo.s3.amazonaws.com/Great-Horned-Owl.JPG"
+          alt="avatar"
+          style="width: 200px; height: 200px; object-fit: contain"
+        />
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/560416d7e4b042ea35bfe0ae/075ddea7-dc7c-4347-9a3b-5aad268adf41/snowy-owl-8481687_1280.jpg"
+          alt="avatar"
+          style="width: 200px; height: 200px; object-fit: contain"
+        />
+        <img
+          src="https://thumbnails.cbc.ca/maven_legacy/thumbnails/166/587/SWOSE01_03_Owl_Voles_CBCDocs_CLEAN.00_01_28_16.Still006.jpg"
+          alt="avatar"
+          style="width: 200px; height: 200px; object-fit: contain"
+        />
+      </div>
 
+      <p>
+        <span class="first-sentence">
+          Owls spend much of their waking time hunting for food. Many owl
+          species are carnivores, or meat eaters.</span
+        >
+        Small, rodent-like mammals, such as voles and mice, are the primary prey
+        for many owl species. An owl's diet may also include frogs, lizards,
+        snakes, fish, mice, rabbits, birds, squirrels, and other creatures.
+        Occasionally, Great Horned Owls might even find skunks tasty enough to
+        eat. Some owls, like the Flammulated Owl eat insects almost exclusively.
+        Animals that eat insects are called insectivores
+      </p>
+
+      <a href="https://www.owlresearchinstitute.org/owls-1">
+        ✨Click for more information✨</a
+      >
+      <div></div>
+    </div>
+  </body>
 </html>
-
-<!--- Taken From Khan Academy Intro to JS: Drawing & Animation --->
